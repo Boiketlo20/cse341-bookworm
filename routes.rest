@@ -1,0 +1,37 @@
+//LOCAL HOST
+### Get all books
+GET http://localhost:8080/book
+
+### Get book by ID
+GET http://localhost:8080/book/6a14d134b275d3df60974c91
+
+### Create Book Information
+POST http://localhost:8080/book HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "It Ends With Us",
+  "author": "Colleen Hoover",
+  "description": "Misery Lark, a Vampyre bride, enters a marriage of convenience with Alpha Werewolf Lowe Moreland to uphold a fragile alliance. But her true motives are personal, and her growing feelings for Lowe complicate everything.",
+  "rating": "1.0",
+  "genres": "Romance",
+  "publication_date": "2022",
+  "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1730451646i/181344829.jpg"
+}
+
+### Put Contact : 
+PUT http://localhost:8080/book/6a15f2d7a648902e449c2f33 HTTP/1.1
+Content-Type: application/json
+
+{
+"name": "It Ends With Us",
+  "author": "Colleen Hoover",
+  "description": "A desprate attempt to prove that money isn't everything in relationships and that being a quirky weirdo gets you two niggas",
+  "rating": "1.0",
+  "genres": "Romance",
+  "publication_date": "2022",
+  "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1730451646i/181344829.jpg"
+}
+
+### Delete Contact
+DELETE http://localhost:8080/book/6a15f2d7a648902e449c2f33
