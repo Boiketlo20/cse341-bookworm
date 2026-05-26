@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Atomic Habits",
+        "author": "James Clear",
+        "description": "A practical guide to building good habits and breaking bad ones using proven strategies rooted in biology, psychology, and neuroscience.",
+        "rating": "4.33",
+        "genres": "Self Help",
+        "publication_date": "October 16, 2018",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655988385i/40121378.jpg"
+    },
+    {
+        "name": "The Fake Out",
+        "author": "Stephanie Archer",
+        "description": "A fake-dating, hockey-romance where Hazel and Rory pretend—but feelings get real.",
+        "rating": "4.14",
+        "genres": "Romance",
+        "publication_date": "December 7, 2023",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1699466555i/184591636.jpg"
+    },
+    {
+        "name": "The Poppy War",
+        "author": "R.F. Kuang",
+        "description": "A dark military fantasy inspired by 20th century Chinese history, following war orphan Rin who discovers an aptitude for shamanism.",
+        "rating": "4.17",
+        "genres": "Fantasy",
+        "publication_date": "May 1, 2018",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1515691735i/35068705.jpg"
+    },
+    {
+        "name": "The Sweetest Oblivion",
+        "author": "Danielle Lori",
+        "description": "She's a romantic at heart, living in the most unromantic of worlds... Nicknamed Sweet Abelli for her docile nature, Elena smiles on cue and has a charming response for everything. She's the favored daughter, the perfect mafia principessa... or was.",
+        "rating": "4.15",
+        "genres": "Romance",
+        "publication_date": "June 20, 2018",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1528339619i/39083635.jpg"
+    },
+    {
+        "name": "Bride",
+        "author": "Ali Hazelwood",
+        "description": "Misery Lark, a Vampyre bride, enters a marriage of convenience with Alpha Werewolf Lowe Moreland to uphold a fragile alliance. But her true motives are personal, and her growing feelings for Lowe complicate everything.",
+        "rating": "3.99",
+        "genres": "Fantasy",
+        "publication_date": "February 6, 2024",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1730451646i/181344829.jpg"
+    },
+    {
+        "name": "The Alchemist",
+        "author": "Paulo Coelho",
+        "description": "A mystical tale of Santiago, a shepherd boy who follows his dream to discover a treasure and learns profound life lessons along the way.",
+        "rating": "3.92",
+        "genres": "Self Help",
+        "publication_date": "1988",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg"
+    },
+    {
+        "name": "Reckless",
+        "author": "Elsie Silver",
+        "description": "Rowdy bull rider. Notorious ladies' man. Trouble wrapped up in a drool-worthy package.",
+        "rating": "4.37",
+        "genres": "Romance",
+        "publication_date": "June 9, 2023",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680345590i/123010329.jpg"
+    },
+    {
+        "name": "King of Wrath",
+        "author": "Ana Huang",
+        "description": "A ruthless billionaire meets his match in this arranged marriage romance.",
+        "rating": "4.0",
+        "genres": "Romance",
+        "publication_date": "November 29, 2022",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1742667348i/217206738.jpg"
+    },
+    {
+        "name": "The Cruel Prince",
+        "author": "Holly Black",
+        "description": "Jude must navigate the dangerous High Court of Faerie while resisting her attraction to the wicked Prince Cardan.",
+        "rating": "4.01",
+        "genres": "Fantasy",
+        "publication_date": "January 2, 2018",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1574535986i/26032825.jpg"
+    },
+    {
+        "name": "Black Ties White Lies",
+        "author": "Kat Singleton",
+        "description": "A billionaire romance with secrets and passion.",
+        "rating": "3.8",
+        "genres": "Romance",
+        "publication_date": "December 27, 2022",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1672804605i/63336417.jpg"
+    }
+]
