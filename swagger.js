@@ -5,7 +5,7 @@ const doc = {
     title: 'My API',
     description: 'Description'
   },
-  host : 'localhost:8080', //'cse341-bookworm.onrender.com', 'localhost:8080'
+  host : 'cse341-bookworm.onrender.com', //'cse341-bookworm.onrender.com', 'localhost:8080'
   schemes : ['https', 'http']
 };
 
