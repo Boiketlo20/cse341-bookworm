@@ -27,22 +27,26 @@ const getOne = async(req, res) => {
 
 const createUser = async (req, res) => {
     //#swagger.tags = ['Users']
-    const user = {
-        firstName: req.body.firstName,
-        lastName: req.body.lastName,
-        email: req.body.email
-    };
-    const response = await mongodb.getDb().db('book_info').collection('users').insertOne(user);
-    if (response.acknowledged > 0) {
-        res.status(204).send();
-    } else {
-        res.status(500).json(response.error || 'Some error occured while creating the user.');
-    }
+    try {
+        const user = {
+            firstName: req.body.firstName,
+            lastName: req.body.lastName,
+            email: req.body.email
+        };
+        const response = await mongodb.getDb().db('book_info').collection('users').insertOne(user);
+        if (response.acknowledged > 0) {
+            res.status(204).send();
+        }
+    } catch{
+        res.status(500).json({message: err});
+    }  
+   
 };
 
 const updateUser = async (req, res) => {
     //#swagger.tags = ['Users']
-    if (!ObjectId.isValid(req.params.id)){
+    try{
+        if (!ObjectId.isValid(req.params.id)){
         res.status(400).json('Must use a valid user id to find a user.');
     }
     const userId = new ObjectId(req.params.id);
@@ -54,22 +58,27 @@ const updateUser = async (req, res) => {
     const response = await mongodb.getDb().db('book_info').collection('users').replaceOne({_id: userId}, user);
     if (response.modifiedCount > 0) {
         res.status(204).send();
-    } else {
-        res.status(500).json(response.error || 'Some error occured while updating the book.');
+    } 
+    } catch{
+         res.status(500).json({message: err});
+    
     }
+       
 };
 
 const deleteUser = async (req, res) => {
     //#swagger.tags = ['Users']
-    if (!ObjectId.isValid(req.params.id)){
-        res.status(400).json('Must use a valid user id to delete a user.');
-    }
-    const userId = new ObjectId(req.params.id);
-    const response = await mongodb.getDb().db('book_info').collection('users').deleteOne({_id: userId}, true);
-    if (response.deletedCount > 0) {
-        res.status(204).send();
-    } else {
-        res.status(500).json(response.error || 'Some error occured while deleting the user.');
+    try{
+        if (!ObjectId.isValid(req.params.id)){
+            res.status(400).json('Must use a valid user id to delete a user.');
+        }
+        const userId = new ObjectId(req.params.id);
+        const response = await mongodb.getDb().db('book_info').collection('users').deleteOne({_id: userId}, true);
+        if (response.deletedCount > 0) {
+            res.status(204).send();
+        } 
+    } catch{
+         res.status(500).json({message: err});
     }
 };
 
